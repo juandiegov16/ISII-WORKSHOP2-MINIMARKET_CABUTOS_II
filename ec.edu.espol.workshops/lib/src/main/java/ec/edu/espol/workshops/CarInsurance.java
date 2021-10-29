@@ -6,24 +6,38 @@ import java.util.logging.Logger;
 public class CarInsurance {
     static Logger log = Logger.getLogger(CarInsurance.class.getName());
 	
-	public static void verificarJovenSoltero(Customer cliente){
-        if(cliente.getSex().toUpperCase().equals("M") && !cliente.isMarried() && (cliente.getAge()<25)){
-            cliente.setBase(cliente.getBase()+1500);
+	/*
+	 * Verifica si cliente es hombre casado menor de 25.
+	 * */
+	public static void verificarJovenSoltero(Customer cliente) {
+        if (cliente.getSex().toUpperCase().equals("M") && !cliente.isMarried() && (cliente.getAge() < 25)) {
+            cliente.setBase(cliente.getBase() + 1500);
         }
     }
     
-    public static void verificarMujeroCasado(Customer cliente){
-        if(cliente.getSex().toUpperCase().equals("F")|| cliente.isMarried()){
-            cliente.setBase(cliente.getBase()-200);
+	/*
+	 * Verifica si el cliente es mujer o si está casado
+	 * */
+    public static void verificarMujeroCasado(Customer cliente) {
+        if (cliente.getSex().toUpperCase().equals("F") || cliente.isMarried()) {
+            cliente.setBase(cliente.getBase() - 200);
         }
     }
     
-    public static void verificarEdad(Customer cliente){
-        if(cliente.getAge()>=45 && cliente.getAge()<65){
-            cliente.setBase(cliente.getBase()-100);
+    
+    /*
+     * Verifica si cliente tiene entre 45 y 64 años.
+     * */
+    public static void verificarEdad(Customer cliente) {
+        if (cliente.getAge() >= 45 && cliente.getAge() < 65) {
+            cliente.setBase(cliente.getBase() - 100);
         }
     }
     
+
+    /*
+     * Valida que el cliente sea menor de 80 años y tenga licencia de conducir.
+     * */
     public static void validarPremium(Customer cliente){
         if(cliente.getAge()>80 || !cliente.hasDrivingLicense()){
         	log.fine("Cannot sell insurance to current customer."); // NOPMD by juandi on 10/29/21, 2:08 PM
@@ -34,7 +48,7 @@ public class CarInsurance {
     
 
 public static void main(String[] args) {
-    try (// TODO code application logic here
+    try (
 	Scanner sc = new Scanner(System.in)) {
 		log.fine("Car Insurance Premium"); // NOPMD by juandi on 10/29/21, 2:09 PM
 		
@@ -46,10 +60,10 @@ public static void main(String[] args) {
 		String estadoMarital = sc.nextLine();
 		boolean casado = true;
 		
-		if((estadoMarital.toUpperCase()).equals("Y")){
+		if ((estadoMarital.toUpperCase()).equals("Y")) {
 		    casado = true;
 		}
-		else if((estadoMarital.toUpperCase()).equals("N")){
+		else if ((estadoMarital.toUpperCase()).equals("N")) {
 			casado = false;
 		}
 		
@@ -58,14 +72,14 @@ public static void main(String[] args) {
 		String licencia = sc.nextLine();
 		boolean tieneLicencia = true;
 		
-		if(licencia.toUpperCase().equals("Y")){
+		if (licencia.toUpperCase().equals("Y")) {
 			tieneLicencia = true;
 		}
-		else if(licencia.toUpperCase().equals("N")){
+		else if (licencia.toUpperCase().equals("N")) {
 			tieneLicencia = false;
 		}
 		
-		Customer cliente = new Customer(Integer.parseInt(edad),sexo,casado,tieneLicencia);
+		Customer cliente = new Customer(Integer.parseInt(edad), sexo, casado, tieneLicencia);
 		
 		
 		verificarJovenSoltero(cliente);
