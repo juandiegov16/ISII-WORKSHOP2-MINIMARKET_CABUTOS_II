@@ -40,8 +40,7 @@ public class CarInsurance {
      * */
     public static void validarPremium(Customer cliente){
         if(cliente.getAge()>80 || !cliente.hasDrivingLicense()){
-        	log.fine("Cannot sell insurance to current customer."); // NOPMD by juandi on 10/29/21, 2:08 PM
-        	System.exit(-1);
+          log.fine("Cannot sell insurance to current customer."); // NOPMD by juandi on 10/29/21, 2:08 PM
         }
     }
     
