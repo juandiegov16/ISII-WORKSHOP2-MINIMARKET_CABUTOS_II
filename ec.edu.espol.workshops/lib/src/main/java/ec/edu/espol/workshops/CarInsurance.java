@@ -25,7 +25,6 @@ public class CarInsurance {
     public static void validarPremium(Customer cliente){
         if(cliente.getAge()>80 || !cliente.hasDrivingLicense()){
         	System.out.println("Cannot sell insurance to current customer.");
-        	System.exit(-1);
         }
     }
     
