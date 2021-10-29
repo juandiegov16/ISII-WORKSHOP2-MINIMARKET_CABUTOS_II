@@ -1,0 +1,619 @@
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m5:85[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m5:85[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m5:85[0m
+[0;32m    rule: [0mUseUtilityClass
+[0;32m    msg:  [0mUseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m5:85[0m
+[0;32m    rule: [0mUseUtilityClass
+[0;32m    msg:  [0mUseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m7:11[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m7:11[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mUnnecessaryCaseChange
+[0;32m    msg:  [0mUnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mUnnecessaryCaseChange
+[0;32m    msg:  [0mUnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m13:17[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m13:17[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mUnnecessaryCaseChange
+[0;32m    msg:  [0mUnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mUnnecessaryCaseChange
+[0;32m    msg:  [0mUnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m19:23[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m19:23[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m25:30[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m25:30[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m27:27[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m27:27[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m28:28[0m
+[0;32m    rule: [0mDoNotTerminateVM
+[0;32m    msg:  [0mDoNotTerminateVM: System.exit() should not be used in J2EE/JEE apps
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m28:28[0m
+[0;32m    rule: [0mDoNotTerminateVM
+[0;32m    msg:  [0mDoNotTerminateVM: System.exit() should not be used in J2EE/JEE apps
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m34:83[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m34:83[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m37:37[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m37:37[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m39:39[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m39:39[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m41:41[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m41:41[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m43:43[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m43:43[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m45:48[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'casado' (lines '45'-'48').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m45:48[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'casado' (lines '45'-'48').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m45:51[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'casado' (lines '45'-'51').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m45:51[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'casado' (lines '45'-'51').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m47:47[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m47:47[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m47:47[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m47:47[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m47:47[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m47:47[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m55:55[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m55:55[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m57:60[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tieneLicencia' (lines '57'-'60').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m57:60[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tieneLicencia' (lines '57'-'60').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m57:63[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tieneLicencia' (lines '57'-'63').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m57:63[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tieneLicencia' (lines '57'-'63').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mUnnecessaryCaseChange
+[0;32m    msg:  [0mUnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mUnnecessaryCaseChange
+[0;32m    msg:  [0mUnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mUnnecessaryCaseChange
+[0;32m    msg:  [0mUnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mUnnecessaryCaseChange
+[0;32m    msg:  [0mUnnecessaryCaseChange: Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m62:62[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m75:75[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m75:75[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m78:78[0m
+[0;32m    rule: [0mAvoidPrintStackTrace
+[0;32m    msg:  [0mAvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCarInsurance.java[0m:[0;36m78:78[0m
+[0;32m    rule: [0mAvoidPrintStackTrace
+[0;32m    msg:  [0mAvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+[0;32m    code: [0mnull
+
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/Customer.java[0m
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m3:62[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m3:62[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m4:4[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m4:4[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mAvoidFieldNameMatchingMethodName
+[0;32m    msg:  [0mAvoidFieldNameMatchingMethodName: Field isMarried has the same name as a method
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mAvoidFieldNameMatchingMethodName
+[0;32m    msg:  [0mAvoidFieldNameMatchingMethodName: Field isMarried has the same name as a method
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mAvoidFieldNameMatchingMethodName
+[0;32m    msg:  [0mAvoidFieldNameMatchingMethodName: Field hasdrivingLicense has the same name as a method
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mAvoidFieldNameMatchingMethodName
+[0;32m    msg:  [0mAvoidFieldNameMatchingMethodName: Field hasdrivingLicense has the same name as a method
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m10:16[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m10:16[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m38:40[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m38:40[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m42:44[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m42:44[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m46:48[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m46:48[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m50:52[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36mCustomer.java[0m:[0;36m50:52[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+
+
+Summary:
+
+ec.edu.espol.workshops.Customer : 11
+ec.edu.espol.workshops.CarInsurance : 25
+[1;33m*[0m warnings: [1;37m122[0m
