@@ -7,6 +7,9 @@ public class Customer {
     private boolean hasdrivingLicense;
     private int base;
     
+    /*
+     * Constructor cliente
+     * */
     public Customer(int age, String sex, boolean estadoMarital, boolean licencia) {
         this.age = age;
         this.sex = sex;
