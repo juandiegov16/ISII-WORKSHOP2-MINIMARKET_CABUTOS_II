@@ -1,8 +1,10 @@
 package ec.edu.espol.workshops;
 
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class CarInsurance {
+    static Logger log = Logger.getLogger(CarInsurance.class.getName());
 	
 	/*
 	 * Verifica si cliente es hombre casado menor de 25.
@@ -32,12 +34,13 @@ public class CarInsurance {
         }
     }
     
+
     /*
      * Valida que el cliente sea menor de 80 años y tenga licencia de conducir.
      * */
-    public static void validarPremium(Customer cliente) {
-        if (cliente.getAge() > 80 || !cliente.hasDrivingLicense()) {
-        	System.out.println("Cannot sell insurance to current customer.");
+    public static void validarPremium(Customer cliente){
+        if(cliente.getAge()>80 || !cliente.hasDrivingLicense()){
+        	log.fine("Cannot sell insurance to current customer."); // NOPMD by juandi on 10/29/21, 2:08 PM
         	System.exit(-1);
         }
     }
@@ -47,13 +50,13 @@ public class CarInsurance {
 public static void main(String[] args) {
     try (
 	Scanner sc = new Scanner(System.in)) {
-		System.out.println("Car Insurance Premium");
+		log.fine("Car Insurance Premium"); // NOPMD by juandi on 10/29/21, 2:09 PM
 		
-		System.out.println("Enter your age: ");
+		log.fine("Enter your age: "); // NOPMD by juandi on 10/29/21, 2:09 PM
 		String edad = sc.nextLine();
-		System.out.println("Enter your sex(M/F): ");
+		log.fine("Enter your sex(M/F): "); // NOPMD by juandi on 10/29/21, 2:09 PM
 		String sexo = sc.nextLine();
-		System.out.println("Are you married or not?(Y/N): ");
+		log.fine("Are you married or not?(Y/N): "); // NOPMD by juandi on 10/29/21, 2:09 PM
 		String estadoMarital = sc.nextLine();
 		boolean casado = true;
 		
@@ -65,7 +68,7 @@ public static void main(String[] args) {
 		}
 		
 		
-		System.out.println("Do you have a driver's license?(Y/N): ");
+		log.fine("Do you have a driver's license?(Y/N): "); // NOPMD by juandi on 10/29/21, 2:09 PM
 		String licencia = sc.nextLine();
 		boolean tieneLicencia = true;
 		
@@ -85,7 +88,7 @@ public static void main(String[] args) {
 		
 		validarPremium(cliente);
 		
-		System.out.println("The premium's value to pay is $ " + cliente.getBase() + ".");
+		log.fine("The premium's value to pay is $ " + cliente.getBase() + "."); // NOPMD by juandi on 10/29/21, 2:10 PM
 	} catch (NumberFormatException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
