@@ -15,7 +15,7 @@ public class Customer {
         this.sex = sex;
         this.isMarried = estadoMarital;
         this.hasdrivingLicense = licencia;
-        this.base = 500;
+        this.base = 600;
     }
 
     
