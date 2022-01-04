@@ -49,44 +49,34 @@ public class CarInsurance {
 public static void main(String[] args) {
     try (
 	Scanner sc = new Scanner(System.in)) {
-		log.fine("Car Insurance Premium"); // NOPMD by juandi on 10/29/21, 2:09 PM
-		
+		log.fine("Car Insurance Premium"); // NOPMD by juandi on 10/29/21, 2:09 PM		
 		log.fine("Enter your age: "); // NOPMD by juandi on 10/29/21, 2:09 PM
 		String edad = sc.nextLine();
 		log.fine("Enter your sex(M/F): "); // NOPMD by juandi on 10/29/21, 2:09 PM
 		String sexo = sc.nextLine();
 		log.fine("Are you married or not?(Y/N): "); // NOPMD by juandi on 10/29/21, 2:09 PM
 		String estadoMarital = sc.nextLine();
-		boolean casado = true;
-		
+		boolean casado = true;		
 		if ((estadoMarital.toUpperCase()).equals("Y")) {
 		    casado = true;
 		}
 		else if ((estadoMarital.toUpperCase()).equals("N")) {
 			casado = false;
-		}
-		
-		
+		}			
 		log.fine("Do you have a driver's license?(Y/N): "); // NOPMD by juandi on 10/29/21, 2:09 PM
 		String licencia = sc.nextLine();
-		boolean tieneLicencia = true;
-		
+		boolean tieneLicencia = true;		
 		if (licencia.toUpperCase().equals("Y")) {
 			tieneLicencia = true;
 		}
 		else if (licencia.toUpperCase().equals("N")) {
 			tieneLicencia = false;
-		}
-		
-		Customer cliente = new Customer(Integer.parseInt(edad), sexo, casado, tieneLicencia);
-		
-		
+		}		
+		Customer cliente = new Customer(Integer.parseInt(edad), sexo, casado, tieneLicencia);		
 		verificarJovenSoltero(cliente);
 		verificarMujeroCasado(cliente);
-		verificarEdad(cliente);
-		
-		validarPremium(cliente);
-		
+		verificarEdad(cliente);		
+		validarPremium(cliente);		
 		log.fine("The premium's value to pay is $ " + cliente.getBase() + "."); // NOPMD by juandi on 10/29/21, 2:10 PM
 	} catch (NumberFormatException e) {
 		// TODO Auto-generated catch block
